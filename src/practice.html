@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+  </style>
+</head>
+<script>
+
+</script>
+<body style="">
+
+
+  </div>
+  <!--<input type="button" value="button" id="button">-->
+  <!--<div id="box" style="font-size: 1.5rem">-->
+  <!--  <label>time to go</label>-->
+  <!--  <input type="text" id="time">-->
+  <!--  <input type="button" id="button" value="click me to go">-->
+  <!--</div>-->
+</body>
+</html>
+<script type="text/javascript">
+  console.log('es6 ---------set and map');
+  let map = new Map();
+  map.set([1],'1').set([2],'2')
+  
+  /*console.log('es6 ---------object extension');
+  let obj = {
+    p1: {
+      pp1: {
+        ppp1: 'ppp1'
+      }
+    },
+    p2:'p2',
+    f1(){
+      console.log('fff1');
+    }
+  }
+  console.log(obj?.p1?.pp1?.ppp1)
+  console.log(obj?.p2?.pp2)
+  obj?.f1?.()
+  let isnull = undefined ?? 1
+  console.log(isnull);*/
+  /*console.log('es6 --------array extention');
+  let [p1,...arrp] = [1,2,3,4]
+  console.log(arrp);
+  let strarr = [...'strarr']
+  console.log(strarr);
+  let distinctArr = Array.from(new Set([1,3,4,4,4,5])).map(item => item * 3);
+  console.log(distinctArr);
+  let arrLike = {
+    0: 'zqh',
+    1: '23',
+    2: 2,
+    length: 3
+  }
+  console.log(Array.from(arrLike));*/
+  /*console.log('es6 ----function');
+  let f = (id) => '333' + id
+  console.log(f(2));
+  try {
+    let a = 1 / 0;
+    console.log(a);
+  } catch (e) {
+    console.log(e);
+  }
+  console.log('es6 -------array');
+  let a1 = [1,2,3]
+  Array.prototype.push.apply(a1,[4,5,6])
+  console.log(a1);
+  a1.push()*/
+  /*let str = 'test string'
+  console.log(str.includes('test '));
+  function say(word = 'default word',){
+    console.log(word);
+    if (secondWord === undefined) {
+      secondWord = 'default second word'
+    }
+    console.log(secondWord);
+  }
+  say('firstWord','')*/
+  /*let [a,[[b='b']],c] = [1,[[undefined]],5,5]
+  console.log(b);
+  let {sin,PI:pai} = Math
+  console.log(sin);
+  console.log(pai);
+  console.log(`test string : ${a} + ${b} = ${a + b}`);
+  *//*for (let i = 0; i < 5; i++) {
+    let i = 'inblock'
+    console.log(i);
+  }
+  let arr = []
+  for (var i = 0; i < 5; i++) {
+    arr[i] = i;
+  }
+  console.log(arr);
+  var a = 1;
+  let b = 2;
+  console.log(window.a);
+  console.log(window.b);*/
+  // var name = 'zqh';
+  // let letname = 'let';
+  /*let button = document.querySelector('#button');
+   (function (){
+   alert('excution functin immetiately')
+   })()
+   button.addEventListener('click',()=>{
+   button.disabled = true;
+   setTimeout(() => {
+   button.disabled = false
+   },2000)
+   })*/
+  /*Array.prototype.sum = function (){
+   let sum = 0;
+   for (let i = 0; i < this.length; i++) {
+   sum += this[i]
+   }
+   return sum;
+   }
+   console.log([1,3,5].sum())*/
+
+  /*class Student{
+   constructor(name,age) {
+   this.name = name
+   this.age = age
+   }
+   say(){
+   console.log(this.name);
+   }
+   }
+   let student = new Student('z', 23);
+   class Father{
+   constructor(x,y) {
+   this.x = x;
+   this.y = y;
+   }
+   sum(){
+   console.log(x + y);
+   }
+   }
+   class Son extends Father{
+   constructor(x,y) {
+   super(x,y);
+
+   }
+   }
+   function Star(name){
+   this.name = name
+   /!*this.say = function (){
+   console.log('say in star');
+   }*!/
+
+   }
+   Star.say = function (){
+   console.log('say in star');
+   }
+   Star.prototype = {
+   constructor: Star,
+   f1(){
+
+   },
+   f2(){
+
+   }
+   }
+   Star.prototype.proSay = function (){
+   console.log(this.name);
+   }
+   new Star('zqh').proSay()
+   Star.say()*/
+  /*function testkey(f,s,t){
+
+   }
+   */
+  /*let time= 0;
+   let input = document.querySelector('#time');
+   let button = document.querySelector('#button');
+   input.value = 2;
+   time = parseInt(input.value)
+   button.addEventListener('click',() => {
+   setInterval(()=>{
+   if (time == 0) {
+   location.href = 'http://www.bing.com'
+   }else{
+   let div = document.querySelector('#box');
+   div.innerHTML = 'you will go to bing in' + time + 'millseconds';
+   time--
+   }
+   },1000)
+   })*/
+</script>
